@@ -9,11 +9,11 @@
 </head>
 <body>
 <?php
-include("header.php");
+include("head/header.php");
 ?>
 <div class="greeting">
     <h1>Ласкаво просимо до ChickenSpace!</h1>
-    <p>Насолоджуйтесь нашими смачними стравами з курки.</p>
+    <p>Насолоджуйтесь нашими смачними стравами.</p>
 </div>
 </body>
 </html>
