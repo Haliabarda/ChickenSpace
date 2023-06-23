@@ -6,14 +6,142 @@ body {
     background-position: center;
     background-attachment: fixed; /* Фіксуємо фонове зображення */
 }
+
 .greeting {
-    margin-left: 200px;
-    margin-top: 300px;
-    margin-right: 1300px;
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-right: 1000px;
     background-color: rgba(23, 41, 83, 0.7);
     padding: 100px;
     color: azure;
     text-align: center;
     border-radius: 90px;
     font-size: 25px;
+    position: fixed;
+}
+
+.greeting h1{
+    font-family: 'Imprint MT Shadow';
+    font-size: 50px;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: rgba(81, 95, 155, 0.7);
+    border-radius: 50px;
+    margin-left: 30px;
+    padding: 40px;
+    color: azure;
+    width: 500px; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure the items don't exceed their container's width */
+    height: 500px; /* Adjust the height as needed */
+    text-align: center; /* Center the content horizontally */
+    overflow: hidden; /* Hide any overflowed content */
+}
+
+.menu-item img {
+    max-width: 90%;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.menu-item h5{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-item h5,
+.menu-item p {
+    margin: 5px;
+}
+
+.menu-item p.card-text {
+    max-height: 100px; /* Adjust the max-height as needed */
+    overflow: hidden;
+}
+
+.menu-item p.card-price {
+    margin-top: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    color: #d2cbcb;
+}
+
+.single_product_card_container {
+    background-color: rgba(124, 140, 212, 0.7);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1350px; /* Adjust the max-width as needed */
+    margin: 50px auto 0;
+    padding: 20px;
+}
+
+.single_product_card_image {
+    margin-top: 20px; /* Adjust the margin as needed */
+    max-width: 800px;
+    max-height: 750px;
+}
+
+.single_product_card_info {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+    color: #ffffff;
+}
+
+.price_button{
+    margin-top: 10px;
+    background-color: #191979;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Arial Black";
+    width: 130px;
+}
+
+.card-bodys{
+    background-color: #9292d4;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.card-text{
+    color: #e5e5e5;
+}
+
+.btn-group{
+    background-color: #4a4a85;
+}
+
+.greet{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(18, 33, 69, 0.8);
+    padding: 100px;
+    color: azure;
+    text-align: center;
+    border-radius: 90px;
+    font-size: 25px;
+    position: fixed;
 }
